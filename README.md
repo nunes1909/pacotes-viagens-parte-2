@@ -6,9 +6,11 @@ Continuação do curso: Layouts Android parte 1 - Criando telas com Constraint L
 ## Este aplicativo aborda:
 1. **Criação da tela de resumo dos pacotes.**
     - Adicionando novo campo de "período da viagem."  
-3. **Refatoração do código java e do layout da tela de resumo.**
+3. **Refatoração do código Java e do layout da tela de resumo do pacote.**
 4. **Criação da tela de pagamento dos pacotes.**
     - Implementação de EditTexts.
     - Inserindo limitação de caracteres e limite máximo de caracteres.
-5. **Refatoração do código java e do layout da tela de pagamento.**
+5. **Refatoração do código Java e do layout da tela de pagamento.**
 6. **Criação da tela de compra.**
+7. **Refatoraçãp do código Java e do layout da tela de resumo da compra.**
+    
