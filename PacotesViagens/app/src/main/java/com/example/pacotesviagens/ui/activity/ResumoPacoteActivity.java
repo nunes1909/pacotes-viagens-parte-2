@@ -30,13 +30,13 @@ public class ResumoPacoteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resumo_pacote);
         setTitle(TITULO_APP_BAR);
 
-        Pacote pacotePortoAlegre = new Pacote("Porto Alegre", "sao_paulo_sp", 5, new BigDecimal("299.90"));
+        Pacote pacote = new Pacote("Porto Alegre", "sao_paulo_sp", 5, new BigDecimal("299.90"));
 
-        mostraLocal(pacotePortoAlegre);
-        mostraImagem(pacotePortoAlegre);
-        mostraDias(pacotePortoAlegre);
-        mostraPreco(pacotePortoAlegre);
-        mostraData(pacotePortoAlegre);
+        mostraLocal(pacote);
+        mostraImagem(pacote);
+        mostraDias(pacote);
+        mostraPreco(pacote);
+        mostraData(pacote);
     }
 
     private void mostraData(Pacote pacote) {
