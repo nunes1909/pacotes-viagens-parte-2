@@ -1,6 +1,7 @@
 ## Dados do repositório:
-Curso: Layouts Android parte 2: Boas práticas para criação de telas.<br>
 Nome do App: Pacotes de Viagens.<br>
+Curso: Layouts Android parte 2: Boas práticas para criação de telas.<br>
+Continuação do curso: Layouts Android parte 1 - Criando telas com Constraint Layouts.
 
 ## Este aplicativo aborda:
 1. **Criação da tela de resumo dos pacotes.**
