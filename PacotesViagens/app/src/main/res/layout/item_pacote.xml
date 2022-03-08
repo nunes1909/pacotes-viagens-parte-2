@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+
+            <ImageView
+                android:id="@+id/item_pacote_imagem"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/belo_horizonte_mg" />
+
+            <TextView
+                android:id="@+id/item_pacote_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                android:padding="8dp"
+                android:text="São Paulo"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/item_pacote_imagem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/item_pacote_imagem"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/item_pacote_dias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="2 dias"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/item_pacote_local"
+                app:layout_constraintTop_toBottomOf="@+id/item_pacote_imagem" />
+
+            <TextView
+                android:id="@+id/item_pacote_preco"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:text="R$ 249,99"
+                android:textColor="#4CAF50"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/item_pacote_dias"
+                app:layout_constraintTop_toBottomOf="@+id/item_pacote_dias" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
