@@ -20,7 +20,7 @@ Continuação do curso: Layouts Android parte 1 - Criando telas com Constraint L
     - O recurso utilizado para receber o objeto foi o "getIntent()".
         - Através de uma validação com if, foi verificado se existe algum Extra.
         - ``` if (intent.hasExtra(CHAVE_PACOTE)) ```
-10. **Criação de uma interface de constantes.
+10. **Criação de uma interface de constantes.**
     - Todas as activities ao receber o objeto, recebem a mesma chave "extra".
 11. **Refatoração de todo o código Java da aplicação.**
 12. **Finalizando o projeto.** 🚀🎉
