@@ -24,4 +24,7 @@ Continuação do curso: Layouts Android parte 1 - Criando telas com Constraint L
     - Todas as activities ao receber o objeto, recebem a mesma chave "extra".
 11. **Refatoração de todo o código Java da aplicação.**
 12. **Finalizando o projeto.** 🚀🎉
-    
+
+![2022-03-08 12-36-45](https://user-images.githubusercontent.com/80295127/157273776-39f6655a-c72c-4eab-beb4-8fbbf9e90f82.gif)
+
+
