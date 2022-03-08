@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/drawable/botao_redondo_laranja.xml" value="0.31" />
         <entry key="app/src/main/res/layout/activity_lista_pacotes.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_lista_viagens.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_pagamento.xml" value="0.3703125" />
+        <entry key="app/src/main/res/layout/activity_resumo_compra.xml" value="0.3703125" />
         <entry key="app/src/main/res/layout/activity_resumo_pacote.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_pacote.xml" value="0.35625" />
       </map>
